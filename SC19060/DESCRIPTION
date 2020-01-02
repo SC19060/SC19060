@@ -1,0 +1,16 @@
+Package: SC19060
+Type: Package
+Title: Make up missing values and Metropolis Sampler
+Version: 1.0
+Date: 2020-01-02
+Author: Minhui Zhu
+Maintainer: Minhui Zhu <zminhuii@163.com>
+Description: Make up missing values by median and generate the Cauchy distribution by Metropolis sampler.
+License: GPL (>= 2)
+Imports: Rcpp (>= 1.0.3),knitr,microbenchmark,rmarkdown,boot,bootstrap,DAAG,Ball,GeneralizedHyperbolic,parallel,corrplot
+LinkingTo: Rcpp
+Suggests: knitr,rmarkdown
+VignetteBuilder: knitr
+RoxygenNote: 7.0.2
+URL: http://github.com/SC19060/SC19060
+BugReports: http://github.com/SC19060/SC19060/issues
